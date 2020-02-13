@@ -1,0 +1,34 @@
+	
+	==== Indicatii pentru rularea viewimage.sh ====
+	
+	Puteti verifica versiunea de python pe care o aveti prin comanda:
+		python --version
+	Este necesara o versiune de python < 3
+	
+	Pentru a instala versiunea de python 2.7 :
+
+	1. sudo add-apt-repository ppa:fkrull/deadsnakes
+	2. sudo apt-get update
+	3. sudo apt-get install python2.7
+
+	(puteti cauta si alte metode alternative)
+	
+	Aveti nevoie si de modulele SciPy si NumPy, pe care le puteti 
+	instala utilizand pip:
+	
+	Instalare pip : https://pip.pypa.io/en/stable/installing/
+	
+	Apoi :
+	
+	pip install numpy
+	pip install scipy
+	
+	In directorul in care se afla viewimage.sh trebuie sa se afle de asemenea si
+	executabilul tema1 sau fisierul sursa tema1.c impreuna cu un Makefile cu regula
+	de build cel putin si directoarele input si images.
+	
+	Asigurati-va ca aveti drept de executie pe viewimage.sh.
+	
+	Daca nu, rulati chmod +x viewimage.sh.
+	
+	Puteti rula apoi sciptul ./viewimage N unde N e numarul imaginii
